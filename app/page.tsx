@@ -289,7 +289,7 @@ export default function Home() {
               </div>
               <div className="text-center">
                 <div className="w-24 h-24 rounded-full bg-gray-200 mx-auto mb-4"></div>
-                <p className="font-medium">Joanito Agilo</p>
+                <p className="font-medium">Joanito Agili</p>
                 <p className="text-gray-600">Researcher</p>
                 <div className="flex justify-center mt-2">
                   <Link href="#" className="mx-1">
