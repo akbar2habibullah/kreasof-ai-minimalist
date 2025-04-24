@@ -1,7 +1,8 @@
 import Image from "next/image"
 import Link from "next/link"
-import { ArrowRight } from "lucide-react"
+import { ArrowRight, Microscope } from "lucide-react"
 import { Button } from "@/components/ui/button"
+
 
 export default function Home() {
   return (
@@ -40,6 +41,13 @@ export default function Home() {
                 <Link href='https://www.linkedin.com/company/kreasof-ai'>
                   <Button variant="outline" className="border-white text-black hover:bg-white hover:text-black">
                     Join the Lab
+                  </Button>
+                </Link>
+              </div>
+              <div className='md:hidden'>
+                <Link href='/research'>
+                  <Button variant="outline" className="border-white text-blue-700 hover:bg-white hover:text-black">
+                    <Microscope/> Research
                   </Button>
                 </Link>
               </div>
