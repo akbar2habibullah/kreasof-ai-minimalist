@@ -24,7 +24,7 @@ export default function Home() {
             <div className="flex items-center justify-between h-20">
               <div className="flex items-center">
                 <Link href="/" className="flex items-center">
-                  <div className="h-12 w-12 mr-2"><Image src='/images/logo-white.png' width={100} height={100} alt='logo' /></div>
+                  <div className="h-12 w-12 mr-2"><Image src='/images/logo-white.webp' width={100} height={100} alt='logo' /></div>
                   <span className="text-3xl font-bold text-white">Kreasof AI</span>
                 </Link>
               </div>
@@ -338,7 +338,7 @@ export default function Home() {
         <div className="container mx-auto px-4 md:px-6">
           <div className="flex items-center justify-between">
             <div className="flex items-center">
-              <div className="h-12 w-12 mr-2"><Image src='/images/logo.png' width={100} height={100} alt='logo' /></div>
+              <div className="h-12 w-12 mr-2"><Image src='/images/logo.webp' width={100} height={100} alt='logo' /></div>
               <span className="text-xl md:text-3xl font-bold">Kreasof AI</span>
             </div>
             <p className="text-sm text-gray-500">
