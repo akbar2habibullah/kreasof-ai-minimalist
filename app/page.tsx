@@ -76,21 +76,21 @@ export default function Home() {
             <div className="grid md:grid-cols-3 gap-8">
               <div className="p-8 bg-[#f3f4f6] rounded-lg">
                 <h3 className="text-xl font-semibold mb-4 text-blue-700">AI Alignment</h3>
-                <p className="text-gray-700">
+                <p>
                   Developing novel techniques to ensure AGI systems are aligned with human values, intentions, and
                   ethical principles, with insights from Indonesian and Asian ethical philosophies.
                 </p>
               </div>
               <div className="p-8 bg-[#f3f4f6] rounded-lg">
                 <h3 className="text-xl font-semibold mb-4 text-blue-700">Explainable AI (XAI)</h3>
-                <p className="text-gray-700">
+                <p>
                   Creating methods for making AI decision-making transparent, understandable, and interpretable to
                   humans, particularly in culturally sensitive contexts.
                 </p>
               </div>
               <div className="p-8 bg-[#f3f4f6] rounded-lg">
                 <h3 className="text-xl font-semibold mb-4 text-blue-700">Culturally-Aware AI</h3>
-                <p className="text-gray-700">
+                <p>
                   Building AI systems that are sensitive to and respect diverse cultural contexts, starting with
                   Indonesian and Asian values, to ensure AI benefits are universally accessible.
                 </p>
