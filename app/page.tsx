@@ -165,11 +165,11 @@ export default function Home() {
             </p>
             <div className="max-w-3xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-8 justify-center my-16">
               <div className="text-center">
-                <div className="w-24 h-24 rounded-full bg-gray-200 mx-auto mb-4"></div>
+                <div className="w-24 h-24 rounded-full bg-gray-200 mx-auto mb-4"><Image src='/images/habib.jpeg' className='rounded-full' width={100} height={100} alt='logo-habib' /></div>
                 <p className="font-medium">Habibullah Akbar</p>
                 <p className="text-gray-600">Founder</p>
                 <div className="flex justify-center mt-2">
-                  <Link href="#" className="mx-1">
+                  <Link href="https://www.linkedin.com/in/habibullah-akbar-631880179/" className="mx-1">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="24"
@@ -206,11 +206,11 @@ export default function Home() {
                 </div>
               </div>
               <div className="text-center">
-                <div className="w-24 h-24 rounded-full bg-gray-200 mx-auto mb-4"></div>
+                <div className="w-24 h-24 rounded-full bg-gray-200 mx-auto mb-4"><Image src='/images/ramdan.jpeg' className='rounded-full' width={100} height={100} alt='logo-ramdan' /></div>
                 <p className="font-medium">Muhammad Ramdan</p>
                 <p className="text-gray-600">Engineer</p>
                 <div className="flex justify-center mt-2">
-                  <Link href="#" className="mx-1">
+                  <Link href="https://www.linkedin.com/in/dadanisme/" className="mx-1">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="24"
@@ -247,11 +247,11 @@ export default function Home() {
                 </div>
               </div>
               <div className="text-center">
-                <div className="w-24 h-24 rounded-full bg-gray-200 mx-auto mb-4"></div>
+                <div className="w-24 h-24 rounded-full bg-gray-200 mx-auto mb-4"><Image src='/images/hazim.jpeg' className='rounded-full' width={100} height={100} alt='logo-hazim' /></div>
                 <p className="font-medium">Muhammad Hazim</p>
                 <p className="text-gray-600">Researcher</p>
                 <div className="flex justify-center mt-2">
-                  <Link href="#" className="mx-1">
+                  <Link href="https://www.linkedin.com/in/muhammad-hazim-al-farouq/" className="mx-1">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="24"
@@ -288,11 +288,11 @@ export default function Home() {
                 </div>
               </div>
               <div className="text-center">
-                <div className="w-24 h-24 rounded-full bg-gray-200 mx-auto mb-4"></div>
+                <div className="w-24 h-24 rounded-full bg-gray-200 mx-auto mb-4"><Image src='/images/joanito.jpeg' className='rounded-full' width={100} height={100} alt='logo-joanito' /></div>
                 <p className="font-medium">Joanito Agili</p>
                 <p className="text-gray-600">Researcher</p>
                 <div className="flex justify-center mt-2">
-                  <Link href="#" className="mx-1">
+                  <Link href="https://www.linkedin.com/in/joanito-agili-lopo-72629b1b2/" className="mx-1">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="24"
