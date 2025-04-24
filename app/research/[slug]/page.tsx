@@ -1,10 +1,10 @@
 import { notFound } from "next/navigation"
 import Link from "next/link"
 import Image from "next/image"
-import { ArrowLeft, Calendar, Clock, Share2 } from "lucide-react"
 import { getResearchPost } from "@/lib/mdx"
 import { Button } from "@/components/ui/button"
 import { MDXRemote } from "next-mdx-remote/rsc"
+import remarkGfm from 'remark-gfm'
 
 // Custom components for MDX
 const components = {
@@ -26,6 +26,16 @@ const components = {
     }
     return <code className="bg-gray-100 rounded px-1 py-0.5 text-sm" {...props} />
   },
+  table: (props: any) => (
+    <div className="overflow-x-auto my-6 shadow rounded-lg border border-gray-200">
+      <table className="min-w-full divide-y divide-gray-200" {...props} />
+    </div>
+  ),
+  thead: (props: any) => <thead className="bg-gray-50" {...props} />,
+  tbody: (props: any) => <tbody className="bg-white divide-y divide-gray-200" {...props} />,
+  tr: (props: any) => <tr {...props} />,
+  th: (props: any) => <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider" {...props} />,
+  td: (props: any) => <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-700" {...props} />,
 }
 
 export default async function ResearchPostPage({ params }: { params: { slug: string } }) {
@@ -100,7 +110,14 @@ export default async function ResearchPostPage({ params }: { params: { slug: str
           <div className="flex flex-col md:flex-row gap-4">
             {/* Main Content */}
             <div className="w-full md:w-2/3 mx-auto">
-              <MDXRemote source={post.content} components={components} />
+              <MDXRemote
+                source={post.content}
+                components={components} 
+                options={{
+                  mdxOptions: {
+                    remarkPlugins: [remarkGfm],
+                  },
+                }}/>
             </div>
           </div>
         </div>

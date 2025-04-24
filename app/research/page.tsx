@@ -5,12 +5,12 @@ import { Button } from "@/components/ui/button"
 // In a real implementation, this would come from a file system or CMS
 const posts = [
   {
-    slug: "self-perturbation-learning",
-    title: "Self-Perturbation Learning",
+    slug: "early-self-perturbation-learning",
+    title: "Early Study: Self-Perturbation Learning for Verifying Mathematical Reasoning",
     excerpt:
-      "Lorem ipsum dolor sit amet",
+      "Imagine \"2 truth and a lie\", but formalized as ML training objective",
     date: "April 20, 2025",
-    author: "Habibullah Akbar",
+    author: "Habibullah Akbar, Muhammad Hazim",
   },
 ]
 
