@@ -52,8 +52,8 @@ export default async function ResearchPostPage({ params }: { params: { slug: str
         <div className="relative h-[600px] md:h-[800px] w-full overflow-hidden rounded-lg md:rounded-xl">
           <div className="absolute inset-0 bg-black/50 z-10 rounded"></div>
           <Image
-            src="/images/header.webp"
-            alt="AI server room"
+            src={post.image}
+            alt="header"
             fill
             className="object-cover rounded"
             priority
