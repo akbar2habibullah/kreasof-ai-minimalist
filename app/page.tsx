@@ -35,7 +35,7 @@ export default function Home() {
                 <Link href="#" className="text-gray-200 hover:text-white">
                   Education
                 </Link>
-                <Link href="#" className="text-gray-200 hover:text-white">
+                <Link href="https://www.youtube.com/@KreasofAI" className="text-gray-200 hover:text-white">
                   Publications
                 </Link>
                 <Link href='https://www.linkedin.com/company/kreasof-ai'>
