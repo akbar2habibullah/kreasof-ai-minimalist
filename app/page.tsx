@@ -57,10 +57,12 @@ export default function Home() {
                   We develop Artificial General Intelligence that empowers all of humanity, with a focus on aligning AI
                   with human values and making it explainable. Based in Indonesia, serving humanity.
                 </p>
-                <Button className="bg-white text-black hover:bg-gray-200 hover:text-black">
-                  Learn about our mission
-                  <ArrowRight className="ml-2 h-4 w-4" />
-                </Button>
+                <Link href='https://github.com/kreasof-ai/universal-benefit-license'>
+                  <Button className="bg-white text-black hover:bg-gray-200 hover:text-black">
+                    Learn about our mission
+                    <ArrowRight className="ml-2 h-4 w-4" />
+                  </Button>
+                </Link>
               </div>
             </div>
           </div>
