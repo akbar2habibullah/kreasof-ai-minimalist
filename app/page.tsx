@@ -339,10 +339,10 @@ export default function Home() {
           <div className="flex items-center justify-between">
             <div className="flex items-center">
               <div className="h-12 w-12 mr-2"><Image src='/images/logo.png' width={100} height={100} alt='logo' /></div>
-              <span className="text-3xl font-bold">Kreasof AI</span>
+              <span className="text-xl md:text-3xl font-bold">Kreasof AI</span>
             </div>
             <p className="text-sm text-gray-500">
-              © {new Date().getFullYear()} PT. Creative Soft Technology. All rights reserved.
+              © {new Date().getFullYear()} Kreasof AI. <span className='hidden md:block'>All rights reserved.</span>
             </p>
           </div>
         </div>
