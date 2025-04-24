@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col bg-white">
       {/* Hero Section with Integrated Navigation */}
-      <section className="relative w-full overflow-hidden px-4 md:px-6 pt-4">
+      <section className="relative w-full overflow-hidden p-2 md:p-4">
         <div className="relative h-[600px] md:h-[800px] w-full overflow-hidden rounded-lg md:rounded-xl">
           <div className="absolute inset-0 bg-black/50 z-10 rounded"></div>
           <Image
@@ -70,8 +70,8 @@ export default function Home() {
 
       {/* Core Research Areas Section */}
       <section className="py-4">
-        <div className="mx-auto px-4 md:px-6">
-          <div className="rounded-xl p-8 md:p-12">
+        <div className="mx-auto px-2 md:px-4">
+          <div className="rounded-xl p-4 md:p-8">
             <h2 className="text-3xl font-bold mb-12 text-left">Core Research Areas</h2>
             <div className="grid md:grid-cols-3 gap-8">
               <div className="p-8 bg-[#f3f4f6] rounded-lg">
@@ -126,19 +126,19 @@ export default function Home() {
       
       {/* Call to Action */}
       <section className="py-4">
-        <div className="mx-auto px-4 md:px-6 text-center">
+        <div className="mx-auto px-2 md:px-4 text-center">
           <div className="relative rounded-lg md:rounded-xl overflow-hidden shadow-sm">
             {/* Background image with overlay */}
             <div className="absolute inset-0 z-0">
-              <div className="absolute inset-0 bg-black/50 z-10"></div>
+              <div className="absolute inset-0 bg-black/70 z-10"></div>
               <Image src="/images/join.webp" alt="AI research collaboration" fill className="object-cover" />
             </div>
 
             {/* Content */}
-            <div className="container relative z-20 py-16 p-8 md:p-12 text-white gap-8 flex flex-col md:flex-row justify-between items-center">
+            <div className="container relative z-20 py-16 p-4 md:p-16 text-white gap-8 flex flex-col md:flex-row justify-between items-start md:items-center">
               <div className='text-left'>
-                <h2 className="text-xl font-bold mb-6">Join Our Mission</h2>
-                <p className="text-lg max-w-3xl">
+                <h2 className="text-3xl font-bold mb-6">Join Our Mission</h2>
+                <p className="md:text-lg max-w-3xl">
                   We invite philanthropic organizations, governments, research institutions, and individuals who share our
                   vision to partner with Kreasof AI in ensuring that the transformative power of artificial intelligence
                   is harnessed for the betterment of all humankind.
