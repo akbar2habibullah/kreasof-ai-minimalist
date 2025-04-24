@@ -20,7 +20,7 @@ export default function Home() {
           />
 
           {/* Navigation integrated in hero */}
-          <div className="absolute top-0 left-0 right-0 z-20 p-4 md:px-16">
+          <div className="absolute top-0 left-0 right-0 z-30 p-4 md:px-16">
             <div className="flex items-center justify-between h-20">
               <div className="flex items-center">
                 <Link href="/" className="flex items-center">
@@ -29,18 +29,20 @@ export default function Home() {
                 </Link>
               </div>
               <div className="hidden md:flex items-center space-x-8">
-                <Link href="/research" className="text-gray-200 hover:text-white">
+                <Link href="#" className="text-gray-200 hover:text-white">
                   Research
                 </Link>
-                <Link href="/education" className="text-gray-200 hover:text-white">
+                <Link href="#" className="text-gray-200 hover:text-white">
                   Education
                 </Link>
-                <Link href="/publications" className="text-gray-200 hover:text-white">
+                <Link href="#" className="text-gray-200 hover:text-white">
                   Publications
                 </Link>
-                <Button variant="outline" className="border-white text-black hover:bg-white hover:text-black">
-                  Join the Lab
-                </Button>
+                <Link href='https://www.linkedin.com/company/kreasof-ai'>
+                  <Button variant="outline" className="border-white text-black hover:bg-white hover:text-black">
+                    Join the Lab
+                  </Button>
+                </Link>
               </div>
             </div>
           </div>
@@ -142,10 +144,12 @@ export default function Home() {
                   is harnessed for the betterment of all humankind.
                 </p>
               </div>
-              <Button className="bg-white text-blue-700 hover:bg-gray-100">
-                Partner With Us
-                <ArrowRight className="ml-2 h-4 w-4" />
-              </Button>
+              <Link href='mailto:habibullah.akbar@kreasof.my.id'>
+                <Button className="bg-white text-blue-700 hover:bg-gray-100">
+                  Partner With Us
+                  <ArrowRight className="ml-2 h-4 w-4" />
+                </Button>
+              </Link>
             </div>
           </div>
         </div>
