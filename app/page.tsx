@@ -9,7 +9,7 @@ export default function Home() {
     <main className="flex min-h-screen flex-col bg-white">
       {/* Hero Section with Integrated Navigation */}
       <section className="relative w-full overflow-hidden px-4 md:px-6 pt-4">
-        <div className="relative h-[800px] w-full overflow-hidden rounded-xl">
+        <div className="relative h-[600px] md:h-[800px] w-full overflow-hidden rounded-lg md:rounded-xl">
           <div className="absolute inset-0 bg-black/50 z-10 rounded"></div>
           <Image
             src="/images/header.webp"
@@ -48,13 +48,13 @@ export default function Home() {
           </div>
 
           {/* Hero content */}
-          <div className="absolute inset-0 z-20 flex items-center">
-            <div className="container mx-auto px-4 md:px-6 mt-16">
+          <div className="absolute inset-0 z-20 flex items-end">
+            <div className="container md:mx-10 px-4 md:px-6 my-16">
               <div className="max-w-4xl">
-                <h1 className="text-4xl md:text-6xl font-bold text-white mb-4">
+                <h1 className="text-3xl md:text-6xl md:text-6xl font-bold text-white mb-4">
                   Pioneering Ethical and Culturally-Aware AGI
                 </h1>
-                <p className="text-xl text-gray-200 mb-8">
+                <p className="text-lg md:text-xl text-gray-200 mb-8">
                   We develop Artificial General Intelligence that empowers all of humanity, with a focus on aligning AI
                   with human values and making it explainable. Based in Indonesia, serving humanity.
                 </p>
@@ -127,7 +127,7 @@ export default function Home() {
       {/* Call to Action */}
       <section className="py-4">
         <div className="mx-auto px-4 md:px-6 text-center">
-          <div className="relative rounded-xl overflow-hidden shadow-sm">
+          <div className="relative rounded-lg md:rounded-xl overflow-hidden shadow-sm">
             {/* Background image with overlay */}
             <div className="absolute inset-0 z-0">
               <div className="absolute inset-0 bg-black/50 z-10"></div>
