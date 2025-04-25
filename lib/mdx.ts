@@ -110,6 +110,11 @@ Self-Perturbation Learning (SPL) offers a viable self-supervised alternative for
 ## Acknowledgements
 
 The study acknowledges support from BINUS University and contributions from Kreasof AI, utilizing computational resources from Google Cloud Platform (GCP) via Google Vertex AI and NVIDIA A100 GPUs.
+
+## Links
+
+*   GitHub: [https://github.com/kreasof-ai/self-perturbation-learning](https://github.com/kreasof-ai/self-perturbation-learning)
+*   Dataset: [https://huggingface.co/datasets/kreasof-ai/SPL-Combined](https://huggingface.co/datasets/kreasof-ai/SPL-Combined)
       `,
     },
   }
