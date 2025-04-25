@@ -46,9 +46,9 @@ export default function Home() {
               </div>
               <div className='md:hidden'>
                 <Link href='/research'>
-                  <Button variant="outline" className="border-white text-blue-700 hover:bg-white hover:text-black">
-                    <Microscope/> Research
-                  </Button>
+                  <div className="text-white hover:text-blue-400">
+                    <Microscope/>
+                  </div>
                 </Link>
               </div>
             </div>
