@@ -25,7 +25,7 @@ export async function getResearchPost(slug: string): Promise<ResearchPost | null
         "Imagine \"2 truth and a lie\", but formalized as ML training objective",
       content: `
 *   **Conference:** 10th International Conference on Computer Science and Computational Intelligence 2025 (ICCSCI 2025).
-*   **Authors:** Habibullah Akbar, Muhammad Hazim Al Farouq, Advendio Desandros*, Mahmud Isnan*, Bens Pardamean* (*External author/contributor).
+*   **Authors:** Habibullah Akbar*, Muhammad Hazim Al Farouq, Advendio Desandros**, Mahmud Isnan**, Bens Pardamean** (*Corresponding author, **External author/contributor).
 *   **Source:** Procedia Computer Science (Pre-print/Early Access).
 
 ## Abstract
