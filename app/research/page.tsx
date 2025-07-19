@@ -10,7 +10,7 @@ const posts = [
     excerpt:
       "Imagine \"2 truth and a lie\", but formalized as ML training objective",
     date: "April 20, 2025",
-    author: "Habibullah Akbar, Muhammad Hazim",
+    author: "Habibullah Akbar, Muhammad Hazim, Advendio Desandros*, Mahmud Isnan*, Bens Pardamean*"
   },
 ]
 
